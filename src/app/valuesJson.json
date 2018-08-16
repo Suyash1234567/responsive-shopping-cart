@@ -1,0 +1,170 @@
+{
+    "Vegetables": [
+        {
+            "name": "Lettuce",
+            "type": "vegetable",
+            "price": 100
+        },
+        {
+            "name": "Spinach",
+            "type": "vegetable",
+            "price": 60
+        },
+        {
+            "name": "Cabbage",
+            "type": "vegetable",
+            "price": 40
+        },
+        {
+            "name": "Cucumber",
+            "type": "vegetable",
+            "price": 70
+        },
+        {
+            "name": "Zuchini",
+            "type": "vegetable",
+            "price": 120
+        },
+        {
+            "name": "Cauliflower",
+            "type": "vegetable",
+            "price": 200
+        },
+        {
+            "name": "Potato",
+            "type": "vegetable",
+            "price": 30
+        },
+        {
+            "name": "Yam",
+            "type": "vegetable",
+            "price": 60
+        }
+    ],
+    "Fruits": [
+        {
+            "name": "Orange",
+            "type": "fruit",
+            "price": 100
+        },
+        {
+            "name": "Mango",
+            "type": "fruit",
+            "price": 60
+        },
+        {
+            "name": "Banana",
+            "type": "fruit",
+            "price": 40
+        },
+        {
+            "name": "Guava",
+            "type": "fruit",
+            "price": 70
+        },
+        {
+            "name": "Pomergranate",
+            "type": "fruit",
+            "price": 120
+        },
+        {
+            "name": "Apple",
+            "type": "fruit",
+            "price": 200
+        },
+        {
+            "name": "Chiku",
+            "type": "fruit",
+            "price": 30
+        },
+        {
+            "name": "Custard Apple",
+            "type": "fruit",
+            "price": 60
+        }
+    ],
+    "Biscuits": [
+        {
+            "name": "Marie",
+            "type": "biscuit",
+            "price": 100
+        },
+        {
+            "name": "Crack",
+            "type": "biscuit",
+            "price": 60
+        },
+        {
+            "name": "Hide and Seek",
+            "type": "biscuit",
+            "price": 40
+        },
+        {
+            "name": "Treat",
+            "type": "biscuit",
+            "price": 70
+        },
+        {
+            "name": "Jim Jam",
+            "type": "biscuit",
+            "price": 120
+        },
+        {
+            "name": "Gold",
+            "type": "biscuit",
+            "price": 200
+        },
+        {
+            "name": "Orio",
+            "type": "biscuit",
+            "price": 30
+        },
+        {
+            "name": "Parle-G",
+            "type": "biscuit",
+            "price": 60
+        }
+    ],
+    "Chocolates": [
+        {
+            "name": "Perk",
+            "type": "chocolate",
+            "price": 100
+        },
+        {
+            "name": "Munch",
+            "type": "chocolate",
+            "price": 60
+        },
+        {
+            "name": "Kit-Kat",
+            "type": "chocolate",
+            "price": 40
+        },
+        {
+            "name": "Gems",
+            "type": "chocolate",
+            "price": 70
+        },
+        {
+            "name": "Five star",
+            "type": "chocolate",
+            "price": 120
+        },
+        {
+            "name": "Bar one",
+            "type": "chocolate",
+            "price": 200
+        },
+        {
+            "name": "Dairy Milk",
+            "type": "chocolate",
+            "price": 30
+        },
+        {
+            "name": "Ferraro Rochers",
+            "type": "chocolate",
+            "price": 60
+        }
+    ]
+}

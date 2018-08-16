@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SharedServiceService } from '../shared-service.service';
+import * as data from '../valuesJson.json';
 
 @Component({
   selector: 'app-header',
@@ -7,15 +7,56 @@ import { SharedServiceService } from '../shared-service.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  data;
-  constructor(private service : SharedServiceService) { }
+  tableData: any = [];
+  searchText: string;
+  total: number = 0;
+  constructor() { }
 
   ngOnInit() {
-    
-  }
-  getFruits(){
-    this.data = this.service.datalelo();
-    console.log(this.data);
+    this.getAll();
   }
 
+  getFruits() {
+    this.tableData = data.Fruits;
+    this.closeNav();
+  }
+  getVegetables() {
+    this.tableData = data.Vegetables;
+    this.closeNav();
+  }
+  getBiscuits() {
+    this.tableData = data.Biscuits;
+    this.closeNav();
+  }
+  getChocolates() {
+    this.tableData = data.Chocolates;
+    this.closeNav();
+  }
+  getAll() {
+    this.tableData = [];
+    data.Fruits.forEach(element => {
+      this.tableData.push(element);
+    });
+
+    data.Biscuits.forEach(element => {
+      this.tableData.push(element);
+    });
+
+    data.Vegetables.forEach(element => {
+      this.tableData.push(element);
+    });
+
+    data.Chocolates.forEach(element => {
+      this.tableData.push(element);
+    });
+    this.closeNav();
+  }
+  closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.body.style.backgroundColor = "rgba(0,0,0,0)";
+  }
+
+  addToBasket(index) {
+    this.total += this.tableData[index].price;
+  }
 }

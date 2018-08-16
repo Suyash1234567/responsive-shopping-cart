@@ -17,6 +17,7 @@
     border: 0 none;
     outline: 0 none;
     font-size: 15px;
+    color: black;
 }
 
 .flipkart-navbar-button {
@@ -157,6 +158,22 @@
     cursor: pointer;
 }
 
+/* table css */
+.table-bordered{
+    width: 70%;
+    margin: 5% 10% 0% 17%;
+}
+th,td{
+    padding: 10px;
+    font-size: 2.0em;
+}
+.header{
+    text-align: center;
+    margin-top: 5%;
+}
+#elementName:hover{
+    color: lightblue;
+}
 @media screen and (min-width: 768px) {
     .largenav {
         display: block;
@@ -176,7 +193,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    left: 0px;
     background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
