@@ -172,7 +172,7 @@ th,td{
     margin-top: 5%;
 }
 #elementName:hover{
-    color: lightblue;
+    color: green;
 }
 @media screen and (min-width: 768px) {
     .largenav {

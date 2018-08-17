@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row row1">
             <ul class="largenav pull-right">
-                <li class="upper-links">
+                <!-- <li class="upper-links">
                     <a class="links" href="http://clashhacks.in/">Link 1</a>
                 </li>
                 <li class="upper-links">
@@ -19,7 +19,7 @@
                 </li>
                 <li class="upper-links">
                     <a class="links" href="http://clashhacks.in/">Link 6</a>
-                </li>
+                </li> -->
                 <li class="upper-links">
                     <a class="links" href="http://clashhacks.in/">
                         <svg class="" width="16px" height="12px" style="overflow: visible;">
@@ -30,7 +30,7 @@
                 </li>
                 <li class="upper-links dropdown">
                     <a class="links" href="http://clashhacks.in/">Dropdown</a>
-                    <ul class="dropdown-menu">
+                    <!-- <ul class="dropdown-menu">
                         <li class="profile-li">
                             <a class="profile-links" href="http://yazilife.com/">Biscuits</a>
                         </li>
@@ -52,7 +52,7 @@
                         <li class="profile-li">
                             <a class="profile-links" href="http://clashhacks.in/">Candies</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
             </ul>
         </div>
@@ -111,8 +111,9 @@
         </thead>
         <tbody>
             <!-- tableData consists of all the arrays -->
+            <!--Pipe added to search data-->
             <tr *ngFor="let element of tableData | search:searchText; index as i">   
-                <th scope="row">{{i+1}}</th>
+                <th scope="row">{{i+1}}</th>  
                 <!-- ngFor fetches every data in tr -->
                 <!-- for summing up(according to the row/element clicked) -->
                 <td id="elementName" (click)="addToBasket(i)">{{element.name}}</td> 
